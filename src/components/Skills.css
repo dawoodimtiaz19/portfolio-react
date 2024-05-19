@@ -1,0 +1,25 @@
+.skills-section {
+  padding: 60px 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #39353a; /* Light Purple theme color */
+}
+
+.skill {
+  background: #f8f9fa; /* Light grey background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skill-name {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.progress-bar {
+  background-color: #5e5360 !important; /* Light Purple theme color for progress bar */
+}

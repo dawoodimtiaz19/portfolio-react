@@ -1,0 +1,37 @@
+.navbar {
+  background: linear-gradient(45deg, #444244, #4b4b4b); /* Gradient background */
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.navbar.active {
+  background: linear-gradient(45deg, #4b4a4b, #444244); /* Change to a darker gradient when active */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Increase shadow when active */
+}
+
+.navbar-brand {
+  color: #fff; /* Navbar brand text color */
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif; /* Use a more modern font */
+}
+
+.nav-link {
+  color: #fff !important; /* Nav link text color */
+  margin-right: 15px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif; /* Use a more modern font */
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover, .nav-link.active {
+  color: #f8f9fa !important; /* Change to a light gray color on hover or when active */
+}
+
+.navbar-toggler {
+  border-color: #fff; /* Color of the navbar toggler icon */
+}
+
+.navbar-toggler-icon {
+  background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"><path stroke="rgba(255, 255, 255, 0.7)" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/></svg>');
+}
